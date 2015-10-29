@@ -103,6 +103,9 @@
     _websiteUrl = [NSURL URLWithString:[dictionary ftgp_nilledObjectForKey:@"website"]];
     
     _utcOffset = [[dictionary ftgp_nilledObjectForKey:@"utc_offset"] doubleValue];
+    _addressComponents = [dictionary ftgp_nilledObjectForKey:@"address_components"];
+    _photos = [dictionary ftgp_nilledObjectForKey:@"photos"];
+
 }
 
 @end

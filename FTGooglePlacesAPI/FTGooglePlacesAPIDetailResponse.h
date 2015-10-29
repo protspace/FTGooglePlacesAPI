@@ -99,5 +99,7 @@
 @property (nonatomic, strong, readonly) NSURL *websiteUrl;
 
 @property (nonatomic, assign, readonly) NSTimeInterval utcOffset;
+@property (nonatomic, copy, readonly) NSArray *addressComponents;
+@property (nonatomic, strong, readonly) NSArray *photos;
 
 @end
