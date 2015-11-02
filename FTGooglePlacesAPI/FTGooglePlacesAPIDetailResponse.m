@@ -104,7 +104,7 @@
     
     _utcOffset = [[dictionary ftgp_nilledObjectForKey:@"utc_offset"] doubleValue];
     _addressComponents = [dictionary ftgp_nilledObjectForKey:@"address_components"];
-    _weekdayText = [dictionary ftgp_nilledObjectForKey:@"weekday_text"];
+    _weekdayText = [[dictionary ftgp_nilledObjectForKey:@"opening_hours"] ftgp_nilledObjectForKey:@"weekday_text"];
     _photos = [dictionary ftgp_nilledObjectForKey:@"photos"];
 
 }
