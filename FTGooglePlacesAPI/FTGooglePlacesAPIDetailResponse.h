@@ -101,5 +101,6 @@
 @property (nonatomic, assign, readonly) NSTimeInterval utcOffset;
 @property (nonatomic, copy, readonly) NSArray *addressComponents;
 @property (nonatomic, strong, readonly) NSArray *photos;
+@property (nonatomic, strong, readonly) NSArray *weekdayText;
 
 @end
